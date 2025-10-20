@@ -1,0 +1,81 @@
+# ============================================================================
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# ============================================================================
+# Environment & Secrets
+# ============================================================================
+.env
+.env.local
+*.key
+
+# ============================================================================
+# Data & Database (Keep locally, exclude from GitHub)
+# ============================================================================
+# Database files - users create their own
+data/*.db
+data/*.db-*
+data/*.sqlite
+data/*.sqlite3
+
+# User uploads - users upload their own PDFs
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Demo PDFs - users generate their own with generate_demo_data.py
+data/demo/*.pdf
+data/demo/*.csv
+!data/demo/.gitkeep
+
+# ============================================================================
+# Development Scripts - Keep only debug/testing scripts private
+# ============================================================================
+scripts/demo_retrieval.py
+scripts/show_prompts.py
+
+# NOTE: generate_demo_data.py and setup_demo_tenants.py are INCLUDED
+# so users can generate their own demo data and setup tenants
+
+# ============================================================================
+# IDE & Editor
+# ============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# macOS
+# ============================================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================================================
+# Testing & Coverage
+# ============================================================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ============================================================================
+# Build & Distribution
+# ============================================================================
+build/
+dist/
+*.egg-info/
+.eggs/

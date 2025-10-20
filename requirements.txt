@@ -1,0 +1,36 @@
+# Web Framework
+fastapi==0.109.0
+uvicorn==0.27.0
+python-multipart==0.0.6
+
+# PDF Processing
+pypdf2==3.0.1
+pdfplumber==0.10.3
+
+# Text Processing & Chunking
+tiktoken==0.5.2
+
+# Embeddings & Search
+sentence-transformers==2.3.1
+faiss-cpu==1.7.4
+rank-bm25==0.2.2
+
+# LLM Integration
+openai==1.10.0
+anthropic==0.8.1
+
+# Database
+sqlalchemy==2.0.25
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+httpx==0.26.0
+
+# Demo Data Generation
+reportlab==4.0.9

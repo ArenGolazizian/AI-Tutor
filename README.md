@@ -5,10 +5,10 @@ RAG-based educational platform that retrieves answers from uploaded PDFs to prov
 ## Demo
 
 ### Student Interface
-![Student App Demo](docs/demo/user_app.gif)
+![Student App Demo](demo/user_app.gif)
 
 ### Admin Dashboard
-![Admin Dashboard Demo](docs/demo/admin_app.gif)
+![Admin Dashboard Demo](demo/admin_app.gif)
 
 ## Overview
 
